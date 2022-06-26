@@ -1,14 +1,14 @@
 package common
 
 import (
-	"Spark/modules"
-	"Spark/utils"
-	"Spark/utils/cmap"
-	"Spark/utils/melody"
 	"bytes"
 	"crypto/aes"
 	"crypto/cipher"
 	"encoding/hex"
+	"github.com/VividVVO/Spark/modules"
+	"github.com/VividVVO/Spark/utils"
+	"github.com/VividVVO/Spark/utils/cmap"
+	"github.com/VividVVO/Spark/utils/melody"
 	"github.com/gin-gonic/gin"
 	"net"
 	"strings"

@@ -1,13 +1,13 @@
 package core
 
 import (
-	"Spark/client/common"
-	"Spark/client/service/basic"
-	"Spark/client/service/file"
-	"Spark/client/service/process"
-	Screenshot "Spark/client/service/screenshot"
-	"Spark/client/service/terminal"
-	"Spark/modules"
+	"github.com/VividVVO/Spark/client/common"
+	"github.com/VividVVO/Spark/client/service/basic"
+	"github.com/VividVVO/Spark/client/service/file"
+	"github.com/VividVVO/Spark/client/service/process"
+	Screenshot "github.com/VividVVO/Spark/client/service/screenshot"
+	"github.com/VividVVO/Spark/client/service/terminal"
+	"github.com/VividVVO/Spark/modules"
 	"github.com/kataras/golog"
 	"os"
 	"reflect"

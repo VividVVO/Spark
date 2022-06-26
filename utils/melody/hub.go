@@ -1,7 +1,7 @@
 package melody
 
 import (
-	"Spark/utils/cmap"
+	"github.com/VividVVO/Spark/utils/cmap"
 )
 
 type hub struct {

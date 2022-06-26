@@ -1,10 +1,10 @@
 package terminal
 
 import (
-	"Spark/client/common"
-	"Spark/modules"
 	"bytes"
 	"encoding/hex"
+	"github.com/VividVVO/Spark/client/common"
+	"github.com/VividVVO/Spark/modules"
 	"io"
 	"io/ioutil"
 	"os"

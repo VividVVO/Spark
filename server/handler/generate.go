@@ -1,14 +1,14 @@
 package handler
 
 import (
-	"Spark/modules"
-	"Spark/server/common"
-	"Spark/server/config"
-	"Spark/utils"
 	"bytes"
 	"encoding/hex"
 	"errors"
 	"fmt"
+	"github.com/VividVVO/Spark/modules"
+	"github.com/VividVVO/Spark/server/common"
+	"github.com/VividVVO/Spark/server/config"
+	"github.com/VividVVO/Spark/utils"
 	"github.com/gin-gonic/gin"
 	"math/big"
 	"net/http"

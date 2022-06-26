@@ -1,8 +1,8 @@
 package terminal
 
 import (
-	"Spark/utils/cmap"
 	"errors"
+	"github.com/VividVVO/Spark/utils/cmap"
 )
 
 var terminals = cmap.New()

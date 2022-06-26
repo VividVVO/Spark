@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"Spark/modules"
-	"Spark/server/common"
+	"github.com/VividVVO/Spark/modules"
+	"github.com/VividVVO/Spark/server/common"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

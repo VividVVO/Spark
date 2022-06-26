@@ -1,12 +1,12 @@
 package main
 
 import (
-	"Spark/client/config"
-	"Spark/client/core"
-	"Spark/utils"
 	"bytes"
 	"crypto/aes"
 	"crypto/cipher"
+	"github.com/VividVVO/Spark/client/config"
+	"github.com/VividVVO/Spark/client/core"
+	"github.com/VividVVO/Spark/utils"
 	"io/ioutil"
 	"math/big"
 	"os"

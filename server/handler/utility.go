@@ -1,13 +1,13 @@
 package handler
 
 import (
-	"Spark/modules"
-	"Spark/server/common"
-	"Spark/server/config"
-	"Spark/utils"
-	"Spark/utils/melody"
 	"bytes"
 	"fmt"
+	"github.com/VividVVO/Spark/modules"
+	"github.com/VividVVO/Spark/server/common"
+	"github.com/VividVVO/Spark/server/config"
+	"github.com/VividVVO/Spark/utils"
+	"github.com/VividVVO/Spark/utils/melody"
 	"github.com/gin-gonic/gin"
 	"github.com/kataras/golog"
 	"net/http"

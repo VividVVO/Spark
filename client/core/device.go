@@ -1,10 +1,10 @@
 package core
 
 import (
-	"Spark/modules"
 	"crypto/rand"
 	"encoding/hex"
 	"errors"
+	"github.com/VividVVO/Spark/modules"
 	"github.com/denisbrodbeck/machineid"
 	"github.com/shirou/gopsutil/v3/cpu"
 	"github.com/shirou/gopsutil/v3/disk"

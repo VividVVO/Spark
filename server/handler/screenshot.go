@@ -1,10 +1,10 @@
 package handler
 
 import (
-	"Spark/modules"
-	"Spark/server/common"
-	"Spark/utils"
-	"Spark/utils/melody"
+	"github.com/VividVVO/Spark/modules"
+	"github.com/VividVVO/Spark/server/common"
+	"github.com/VividVVO/Spark/utils"
+	"github.com/VividVVO/Spark/utils/melody"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"time"

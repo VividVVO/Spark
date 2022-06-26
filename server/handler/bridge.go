@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"Spark/modules"
-	"Spark/server/common"
-	"Spark/utils/cmap"
+	"github.com/VividVVO/Spark/modules"
+	"github.com/VividVVO/Spark/server/common"
+	"github.com/VividVVO/Spark/utils/cmap"
 	"github.com/gin-gonic/gin"
 	"github.com/kataras/golog"
 	"io"

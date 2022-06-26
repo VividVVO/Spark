@@ -1,9 +1,9 @@
 package file
 
 import (
-	"Spark/client/config"
 	"archive/zip"
 	"errors"
+	"github.com/VividVVO/Spark/client/config"
 	"github.com/imroc/req/v3"
 	"io"
 	"io/ioutil"

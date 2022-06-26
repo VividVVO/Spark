@@ -1,10 +1,10 @@
 package common
 
 import (
-	"Spark/client/config"
-	"Spark/modules"
-	"Spark/utils"
 	"encoding/hex"
+	"github.com/VividVVO/Spark/client/config"
+	"github.com/VividVVO/Spark/modules"
+	"github.com/VividVVO/Spark/utils"
 	ws "github.com/gorilla/websocket"
 	"github.com/imroc/req/v3"
 	"sync"

@@ -1,12 +1,12 @@
 package core
 
 import (
-	"Spark/client/common"
-	"Spark/client/config"
-	"Spark/modules"
-	"Spark/utils"
 	"encoding/hex"
 	"errors"
+	"github.com/VividVVO/Spark/client/common"
+	"github.com/VividVVO/Spark/client/config"
+	"github.com/VividVVO/Spark/modules"
+	"github.com/VividVVO/Spark/utils"
 	"io/ioutil"
 	"net/http"
 	"os"

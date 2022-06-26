@@ -3,10 +3,10 @@
 package terminal
 
 import (
-	"Spark/client/common"
-	"Spark/modules"
 	"encoding/hex"
 	"errors"
+	"github.com/VividVVO/Spark/client/common"
+	"github.com/VividVVO/Spark/modules"
 	"github.com/creack/pty"
 	"os"
 	"os/exec"

@@ -1,4 +1,4 @@
-module Spark
+module github.com/VividVVO/Spark
 
 go 1.17
 

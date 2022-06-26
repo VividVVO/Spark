@@ -3,9 +3,9 @@
 package screenshot
 
 import (
-	"Spark/client/config"
 	"bytes"
 	"errors"
+	"github.com/VividVVO/Spark/client/config"
 	"github.com/imroc/req/v3"
 	"github.com/kbinani/screenshot"
 	"image/png"

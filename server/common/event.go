@@ -1,9 +1,9 @@
 package common
 
 import (
-	"Spark/modules"
-	"Spark/utils/cmap"
-	"Spark/utils/melody"
+	"github.com/VividVVO/Spark/modules"
+	"github.com/VividVVO/Spark/utils/cmap"
+	"github.com/VividVVO/Spark/utils/melody"
 	"time"
 )
 

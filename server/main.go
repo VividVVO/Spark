@@ -1,15 +1,15 @@
 package main
 
 import (
-	"Spark/modules"
-	"Spark/server/common"
-	"Spark/server/config"
-	"Spark/server/handler"
-	"Spark/utils/cmap"
 	"bytes"
 	"context"
 	"encoding/hex"
 	"fmt"
+	"github.com/VividVVO/Spark/modules"
+	"github.com/VividVVO/Spark/server/common"
+	"github.com/VividVVO/Spark/server/config"
+	"github.com/VividVVO/Spark/server/handler"
+	"github.com/VividVVO/Spark/utils/cmap"
 	"github.com/rakyll/statik/fs"
 	"io"
 	"net"
@@ -20,9 +20,9 @@ import (
 	"syscall"
 	"time"
 
-	_ "Spark/server/embed/web"
-	"Spark/utils"
-	"Spark/utils/melody"
+	_ "github.com/VividVVO/Spark/server/embed/web"
+	"github.com/VividVVO/Spark/utils"
+	"github.com/VividVVO/Spark/utils/melody"
 	"io/ioutil"
 	"net/http"
 
@@ -35,7 +35,7 @@ var lastRequest = time.Now().Unix()
 
 func main() {
 	golog.SetTimeFormat(`2006/01/02 15:04:05`)
-	fmt.Println("test2")
+
 	data, err := ioutil.ReadFile(`./Config.json`)
 	if err != nil {
 		golog.Fatal(`Failed to read config file: `, err)
