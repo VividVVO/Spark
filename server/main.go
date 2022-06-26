@@ -35,7 +35,7 @@ var lastRequest = time.Now().Unix()
 
 func main() {
 	golog.SetTimeFormat(`2006/01/02 15:04:05`)
-	fmt.Println("test")
+	fmt.Println("test2")
 	data, err := ioutil.ReadFile(`./Config.json`)
 	if err != nil {
 		golog.Fatal(`Failed to read config file: `, err)
